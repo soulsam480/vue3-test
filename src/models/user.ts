@@ -1,7 +1,7 @@
-interface User {
-    id: number | null,
-    title: string,
-    body: string
+interface Post {
+    id: number | null;
+    title: string;
+    body: string;
 }
 
-export default User
+export default Post

@@ -1,24 +1,27 @@
-# op-test
+## vueCli electron with NeDB integration
 
-## Project setup
-```
-npm install
-```
+#### Setup
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Inside project root folder
 
-### Compiles and minifies for production
-```
-npm run build
+```bash
+yarn //preferred as npm has access errors
+
+yarn run electron:serve
+
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Known Bugs
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Nedb instance stops after reloading the app. Expected  bug in node modules bundling through webpack
+ 
+
+### Errors
+For errors try googling or contact me!
+
+### References
+
+- [Vue cli plugin Electron](https://nklayman.github.io/vue-cli-plugin-electron-builder/)
+- [NeDB](https://github.com/louischatriot/nedb)
+- [nedb-promises](https://github.com/bajankristof/nedb-promises)
+  

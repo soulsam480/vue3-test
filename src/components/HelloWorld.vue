@@ -1,5 +1,7 @@
 <template>
-  <div class="hello"></div>
+  <div class="hello">
+    <h3>Vue3 Electron app</h3>
+  </div>
 </template>
 
 <script lang="ts">
