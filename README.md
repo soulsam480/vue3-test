@@ -1,3 +1,5 @@
+## This project is unstable and archived.
+
 ## vueCli electron with NeDB integration
 
 #### Setup
